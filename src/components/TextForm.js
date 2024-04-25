@@ -1,3 +1,24 @@
+
+// import React from 'react';
+
+// function TextForm({ showAlert, heading, mode }) {
+//   const handleOnChange = (event) => {
+//     // Handle text input change
+//   }
+
+//   const handleOnClick = () => {
+//     // Handle button click
+//   }
+
+//   return (
+//     <div className={`container my-3 text-${mode === 'light' ? 'dark' : 'light'}`}>
+//       <h1>{heading}</h1>
+//       {/* Your form elements go here */}
+//     </div>
+//   );
+// }
+
+// export default TextForm;
 import React,{useState} from 'react'
 // const[text,setText]= useState('Enter text here');
 export default function TextForm(props) {
